@@ -6,37 +6,27 @@
         <meta name="viewport" content="width=device-width" />
         <link
             rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link
+            rel="stylesheet"
             type="text/css"
             href="./assets/styles/main.scss"
         />
         <!-- do not remove this line! -->
-        <title>UOC Boilerplate</title>
+        <title>Info-Yoga</title>
     </head>
-    <body>
-        <div class="uoc-container">
-            <picture>
-                <source
-                    srcset="./assets/images/logo.png?as=webp&width=350"
-                    type="image/webp"
-                />
-                <img
-                    src="./assets/images/logo.png?width=350"
-                    alt="Universitat Oberta de Catalunya"
-                    class="uoc-logo"
-                />
-            </picture>
-            <h1 class="uoc-title">
-                <i class="fas fa-university"> Hello, UOC!</i>
-            </h1>
 
-            <p>
-                This is a starter template for the Advanced HTML and CSS Tools
-                courses from the Master's Program in Multimedia Applications and
-                the Master's Program in Web App and Website Development at the
-                Universitat Oberta de Catalunya.
-            </p>
-        </div>
+    <body>
+        <include src="./views/menu.html"></include>
+        <include src="./views/hero.html"></include>
+        <include src="./views/origen.html"></include>
+        <include src="./views/historia.html"></include>
+        <include src="./views/beneficios.html"></include>
+        <include src="./views/tipos.html"></include>
+        <include src="./views/practicas.html"></include>
         <include src="./views/footer.html"></include>
+
         <script type="module" src="./assets/scripts/main.js"></script>
         <!-- do not remove this line! -->
     </body>

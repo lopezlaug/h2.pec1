@@ -1,0 +1,62 @@
+.wide-container-h {
+  background: $grey-background;
+}
+.historia {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+
+  .wrap-container {
+    .sutras,
+    .actualidad {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        max-width: 450px;
+        justify-items: baseline;
+      }
+    }
+    .sutras {
+      img {
+        margin-right: 30px;
+      }
+    }
+    .actualidad {
+      img {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: $layout-breakpoint-tablet) {
+  .historia {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: $layout-breakpoint-mobile) {
+  .historia {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    .sutras {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .actualidad {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .historia .wrap-container .actualidad img {
+    margin-left: 0px;
+  }
+}

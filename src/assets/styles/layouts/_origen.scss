@@ -1,0 +1,26 @@
+.wide-container-o {
+  // background-image: url("../images/buddha.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.origen {
+  padding: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  h2,
+  p {
+    margin-left: 130px;
+    max-width: 450px;
+    margin-block-start: 0px;
+    color: white;
+  }
+}
+
+@media (max-width: $layout-breakpoint-tablet) {
+}
+
+@media (max-width: $layout-breakpoint-mobile) {
+}

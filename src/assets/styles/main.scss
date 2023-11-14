@@ -14,17 +14,67 @@
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
  */
+/*@import "swiper/scss";*/
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
+
+//@import "@fortawesome/fontawesome-free/css/all.css";
+/* dm-serif-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-serif-display-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v36-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/open-sans-v36-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v36-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v36-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
-
+@import "layouts/menu";
 @import "layouts/home";
-
+@import "layouts/hero";
+@import "layouts/origen";
+@import "layouts/historia";
+@import "layouts/beneficios";
+@import "layouts/tipos";
+@import "layouts/practicas";
+@import "layouts/footer";
 /**
  * Do NOT include anything else in this file!
  */
