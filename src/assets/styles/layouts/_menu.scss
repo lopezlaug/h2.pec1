@@ -62,16 +62,6 @@
     align-content: center;
     align-items: center;
   }
-  .navigation {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .logo {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
 }
 
 @media (max-width: $layout-breakpoint-mobile) {
@@ -79,12 +69,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 220px;
-    margin-top: 10px;
-  }
+    height: 90px;
 
-  .navigation {
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
+    font-size: 8px;
+    line-height: 18px;
+
+    .navigation {
+      // display: flex;
+      // flex-direction: column;
+      display: none;
+    }
   }
 }

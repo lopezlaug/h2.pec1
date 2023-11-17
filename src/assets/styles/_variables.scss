@@ -4,10 +4,10 @@ $font-family-serif: "DM Serif Display", serif;
 $font-family-sans-serif: "Open Sans", sans-serif;
 
 $blue: #092fcd;
-$bluedarken: darken($blue, 15);
+$bluedarken: color.adjust($blue, $lightness: -15);
 $lila: #bbc5f1;
 $orange: #fbba18;
 $grey-background: #e9e4ea;
 
-$layout-breakpoint-tablet: 996px;
-$layout-breakpoint-mobile: 680px;
+$layout-breakpoint-tablet: 1100px;
+$layout-breakpoint-mobile: 850px;

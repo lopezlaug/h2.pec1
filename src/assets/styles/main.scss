@@ -10,6 +10,20 @@
 @import "variables";
 
 /**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+@import "layouts/menu";
+@import "layouts/home";
+@import "layouts/hero";
+@import "layouts/origen";
+@import "layouts/historia";
+@import "layouts/beneficios";
+@import "layouts/tipos";
+@import "layouts/practicas";
+@import "layouts/footer";
+
+/**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
@@ -62,19 +76,6 @@
   src: url("../fonts/open-sans-v36-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/**
- * Import layouts
- * It's a best practice to use a different partial for each page
- */
-@import "layouts/menu";
-@import "layouts/home";
-@import "layouts/hero";
-@import "layouts/origen";
-@import "layouts/historia";
-@import "layouts/beneficios";
-@import "layouts/tipos";
-@import "layouts/practicas";
-@import "layouts/footer";
 /**
  * Do NOT include anything else in this file!
  */

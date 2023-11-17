@@ -42,8 +42,8 @@
 
 @media (max-width: $layout-breakpoint-tablet) {
   .beneficios {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     .wrap {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -55,7 +55,7 @@
   .beneficios {
     .wrap {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
   }
 }

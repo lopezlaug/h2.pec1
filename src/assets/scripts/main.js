@@ -28,15 +28,15 @@ var swiper = new Swiper(".swiper-practicas-gallery", {
   },
   breakpoints: {
     640: {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      spaceBetween: 10,
-    },
-    768: {
       slidesPerView: 2,
       slidesPerGroup: 2,
       spaceBetween: 20,
     },
+    // 996: {
+    //   slidesPerView: 2,
+    //   slidesPerGroup: 2,
+    //   spaceBetween: 20,
+    // },
     1024: {
       slidesPerView: 3,
       slidesPerGroup: 3,
@@ -58,7 +58,7 @@ var swiper = new Swiper(".swiper-video-thumbnails", {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    768: {
+    996: {
       slidesPerView: 4,
       spaceBetween: 40,
     },
